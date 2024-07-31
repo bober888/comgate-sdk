@@ -10,13 +10,13 @@ class AboSingleTransferRequest implements IRequest
 	const ABO_ENCODING_WINDOWS = 'win1250';
 	const ABO_ENCODING_UTF8 = 'utf8';
 
-	protected string $transferId;
+	protected $transferId;
 
-	protected bool $test;
+	protected $test;
 
-	protected string $type;
+	protected $type;
 
-	protected string $encoding;
+	protected $encoding;
 
 	public function __construct(string $transferId, bool $test, string $type, string $encoding)
 	{

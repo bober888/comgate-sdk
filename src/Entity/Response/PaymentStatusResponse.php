@@ -12,24 +12,24 @@ use Comgate\SDK\Exception\ApiException;
 
 class PaymentStatusResponse
 {
-	protected int $code;
-	protected string $message;
-	protected string $merchant;
-	protected bool $test;
-	protected Money $price;
-	protected string $curr;
-	protected string $label;
-	protected string $refId;
-	protected string $payerId;
-	protected string $method;
-	protected string $account;
-	protected string $email;
-	protected string $name;
-	protected string $transId;
-	protected string $secret;
-	protected string $status;
-	protected string $payerName;
-	protected string $fee;
+	protected $code;
+	protected $message;
+	protected $merchant;
+	protected $test;
+	protected $price;
+	protected $curr;
+	protected $label;
+	protected $refId;
+	protected $payerId;
+	protected $method;
+	protected $account;
+	protected $email;
+	protected $name;
+	protected $transId;
+	protected $secret;
+	protected $status;
+	protected $payerName;
+	protected $fee;
 
 	/**
 	 * @param Response $paymentStatusResponse

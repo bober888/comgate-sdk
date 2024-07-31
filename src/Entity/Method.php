@@ -5,13 +5,13 @@ namespace Comgate\SDK\Entity;
 class Method
 {
 
-	private string $id;
+	private $id;
 
-	private string $name;
+	private $name;
 
-	private string $description;
+	private $description;
 
-	private string $logo;
+	private $logo;
 
 	/**
 	 * @param array<string, string> $methodData

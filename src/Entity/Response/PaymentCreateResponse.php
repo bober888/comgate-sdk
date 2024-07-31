@@ -10,13 +10,13 @@ use GuzzleHttp\Psr7\Query;
 class PaymentCreateResponse
 {
 
-	protected int $code;
+	protected $code;
 
-	protected string $message = '';
+	protected $message = '';
 
-	protected string $transId = '';
+	protected $transId = '';
 
-	protected string $redirect = '';
+	protected $redirect = '';
 
 	/**
 	 * @param Response $paymentsCreateResponse

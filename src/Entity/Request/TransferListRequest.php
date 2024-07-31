@@ -9,11 +9,11 @@ class TransferListRequest implements IRequest
 	const DATE_FORMAT = 'Y-m-d';
 
 	/**
-	 * @var DateTimeInterface 
+	 * @var DateTimeInterface
 	 */
-	protected DateTimeInterface $date;
+	protected $date;
 
-	protected bool $test;
+	protected $test;
 
 	public function __construct(DateTimeInterface $date, bool $test = false)
 	{

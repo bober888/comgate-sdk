@@ -7,11 +7,11 @@ use DateTimeInterface;
 
 class Transfer
 {
-	protected int $transferId; // int(1444754)
-	protected DateTimeInterface $transferDate; // string(10) "2023-02-07"
-	protected string $accountCounterparty; // string(6) "0/0000"
-	protected string $accountOutgoing; // string(6) "1/0000"
-	protected string $variableSymbol; // string(10) "0123456789"
+	protected $transferId; // int(1444754)
+	protected $transferDate; // string(10) "2023-02-07"
+	protected $accountCounterparty; // string(6) "0/0000"
+	protected $accountOutgoing; // string(6) "1/0000"
+	protected $variableSymbol; // string(10) "0123456789"
 
 	/**
 	 * @param array<string, string|int> $transferData

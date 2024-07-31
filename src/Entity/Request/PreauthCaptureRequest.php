@@ -8,15 +8,15 @@ use Comgate\SDK\Exception\LogicalException;
 
 class PreauthCaptureRequest implements IRequest
 {
-	private string $transId;
+	private $transId;
 
-	private Money $amount;
+	private $amount;
 
 	public function __construct(string $transId, Money $amount){
 		$this->setTransId($transId)
 			->setAmount($amount);
 	}
-	
+
 	/**
 	 * @return string
 	 */
