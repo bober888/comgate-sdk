@@ -10,13 +10,13 @@ use Comgate\SDK\Http\Query;
 class PaymentCreateResponse
 {
 
-	protected int $code;
+	protected $code;
 
-	protected string $message = '';
+	protected $message = '';
 
-	protected string $transId = '';
+	protected $transId = '';
 
-	protected string $redirect = '';
+	protected $redirect = '';
 
 	/**
 	 * @param Response $paymentsCreateResponse

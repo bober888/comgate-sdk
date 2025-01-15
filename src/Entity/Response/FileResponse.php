@@ -6,9 +6,9 @@ use Comgate\SDK\Exception\LogicalException;
 
 class FileResponse
 {
-	protected string $filename = '';
+	protected $filename = '';
 
-	protected string $fileContent;
+	protected $fileContent;
 
     /**
      * @param string $directory

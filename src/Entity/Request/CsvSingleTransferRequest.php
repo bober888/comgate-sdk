@@ -5,9 +5,9 @@ namespace Comgate\SDK\Entity\Request;
 class CsvSingleTransferRequest implements IRequest
 {
 
-	protected string $transferId;
+	protected $transferId;
 
-	protected bool $test;
+	protected $test;
 
 	public function __construct(string $transferId, bool $test)
 	{

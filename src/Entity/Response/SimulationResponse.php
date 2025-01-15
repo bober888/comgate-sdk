@@ -11,9 +11,9 @@ use Comgate\SDK\Http\Query;
 class SimulationResponse
 {
 
-	protected int $code;
+	protected $code;
 
-	protected string $message;
+	protected $message;
 
 	/**
 	 * @param Response $simulationResponse

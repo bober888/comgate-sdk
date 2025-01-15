@@ -5,13 +5,13 @@ namespace Comgate\SDK\Entity;
 class PaymentInfo
 {
         /**
-         * 
+         *
          * @var array<string, int|string>
          */
-	protected array $data = [];
+	protected $data = [];
 
         /**
-         * 
+         *
          * @param array<string, int|string> $data
          * @return self
          */

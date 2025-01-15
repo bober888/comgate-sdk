@@ -10,9 +10,9 @@ use Comgate\SDK\Http\Query;
 class PaymentCancelResponse
 {
 
-	protected int $code;
+	protected $code;
 
-	protected string $message;
+	protected $message;
 
 	/**
 	 * @param Response $cancelPreauthResponse

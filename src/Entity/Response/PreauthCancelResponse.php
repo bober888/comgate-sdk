@@ -11,9 +11,9 @@ use Comgate\SDK\Http\Query;
 class PreauthCancelResponse
 {
 
-	protected int $code;
+	protected $code;
 
-	protected string $message;
+	protected $message;
 
 	/**
 	 * @param Response $cancelPreauthResponse

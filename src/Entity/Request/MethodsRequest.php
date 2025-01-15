@@ -6,10 +6,10 @@ use Comgate\SDK\Entity\Codes\TypeCode;
 
 class MethodsRequest implements IRequest
 {
-	private string $type = TypeCode::TYPE_JSON;
-	private ?string $lang = null;
-	private ?string $currency = null;
-	private ?string $country = null;
+	private $type = TypeCode::TYPE_JSON;
+	private $lang = null;
+	private $currency = null;
+	private $country = null;
 
 	public function getUrn(): string
 	{

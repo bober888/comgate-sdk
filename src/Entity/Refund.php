@@ -6,11 +6,11 @@ use Comgate\SDK\Entity\Codes\CurrencyCode;
 
 class Refund
 {
-	private string $transId;
-	private Money $amount;
-	private string $currency = CurrencyCode::CZK;
-	private bool $test = false;
-	private string $refId = '';
+	private $transId;
+	private $amount;
+	private $currency = CurrencyCode::CZK;
+	private $test = false;
+	private $refId = '';
 
 	/**
 	 * @return string
